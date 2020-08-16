@@ -1,0 +1,10 @@
+# Ponto de entrada da API
+type Query {
+  hello: String
+  now: Date
+  userAuthenticated: User
+  users: [User]
+  user(id: ID): User
+  profiles: [Profile]
+  profile(id: Int): Profile
+}

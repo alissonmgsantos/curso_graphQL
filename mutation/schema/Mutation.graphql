@@ -1,0 +1,7 @@
+type Mutation {
+    storeUser(
+        name: String
+        email: String
+        age: Int
+    ): User!
+}
